@@ -17,3 +17,35 @@ After we choose the London Area, we are going to explore the neighborhoods in or
 We are going to choose the neighborhood(of the chosen group) that is closest to Central London, in order to take advantage of easy access to a larger number of London citizens.
 
 
+#Data-Section
+We are going to find all the postcodes of London through eight sources/pages from wikipedia. These sources will be used for text mining and creation of the original dataframe of London. In the dataframe, we will include the variables of PostCode(e.g. N1C),Name of the Neighborhood(e.g. Kings Cross Central), Area(e.g. Camden) & Area Category(e.g. North). In "area category" we are going to flag the 8 areas of London.
+
+We are going to proceed to the necessary data cleansing(e.g. non geolocation postcodes) and add for each neighborhood the latitude and longitude information from geocoder.
+
+We are going to use Foursquare location data to extract the venues information for the areas of interest.We are going to create dummies for these categories in order to determine the best London area category based on the smallest frequencies of food restaurants.
+
+Based on these Foursquare location data we are going to group the neighborhoods in 5 clusters.Based on cluster's characteristics we are going to choose the neighborhood group that satisfies criteria of building a Greek restaurant such as type of other venues nearby(e.g. theaters,cinemas,parks etc.), if there are other restaurants that could be damaging for our business(e.g. a lot of ethnic restaurants) etc.
+
+Finaly, during several steps of the project, we are going to use folium library to create the necessary maps in order to give a visual view to the investors of our actions & logic.
+
+
+
+#Methodology
+After we gathered data and built the appropriate dataframe from our sources, we proceeded in data analysis to find the best area & neighborhood to build our restaurant. We took into consideration the top 20 most common venues from Foursquare, through frequency statistics & aggregations per area and we derived the distributions per area & per venue category. At that point we had to choose the best area of London and we selected the area with the least percentage of restaurants and other types of food industry. 
+For our next step and for the selected area, we took into consideration the top 10 most common venues. Through frequency statistics & aggregations per neighborhood, we proceeded in K-means clustering method in order to group our neighborhoods into 5 clusters based on the venues nearby. Geospatial map view is given for our clustering results. We explored the derived clusters and we chose 2 clusters that there is a probable opportunity to build a greek restaurant. From these clusters we chose 2 neighborhoods based on the least percentage of restaurants and other types of food industry. We had our final decision based on the geospatial factor considering the distance from the centre of london and the existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner.
+
+
+#Results
+In order to decide which area of London is the best, we took into consideration the top 20 most common venues from Foursquare.We selected the area with the least percentage of restaurants and other types of food industry.The selected area was East London.
+For East London, we took into consideration the top 10 most common venues for each neighborhood and we grouped our neighborhoods into 5 clusters based on the venues nearby. We explored the derived clusters, we chose the 1st & 5th cluster and from these clusters we endedup in the final 2 neighborhoods which correspond to Postcodes of E16 & E5. Finally, we chose E16 neighborhood based on the distance from central London(our approach is that there is easier access for a larger number of London citizens). Overall, our criteria to our final selection were to avoid competition as much as possible, distance from London down-town(easy access of large numbers of citizens), existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner.
+
+
+#Discussion
+As a first observation, we would say that there are a lot of pizza & italian restaurants almost everywhere in London. So, if you are a tourist and your appetite demands italian or pizza don't worry. My guess is that you won't even need google maps to find one.
+A second observation is that we faced a lot of problems in data cleansing due to the fact that there are special non geolocation postcodes that correspond to facilities like banks etc.So, in case you want to work with London's Postcodes in the future becareful in data cleansing.
+A third observation is that our final decision took into consideration several factors such as number of food restaurants nearby,distance from central London and if there are other venues nearby such as theatres etc. So, a part of our project is based on geospatial & pure business analysis and logic.
+Our criteria to our selection were to avoid competition as much as possible, distance from London down-town(easy access of large numbers of citizens), existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner. Our final choice is the optimal due to the fact that there are only an icecream shop and a sandwich place from food insutry.Furthermore, it is close to central London as you will see in the maps and there are other venues that macthup with a good lunch or dinner.: a theatre,a pub,an artgallery,a garden, a bookstore and a spa.
+
+
+#Conclusion
+We considered several factors and we managed to extract the optimal result from a chaotic original view of London. At the beginning, we had 178 Postcodes which corresponded to London neighborhoods. Using analytics and business logic, we narrowed our search at East London (22 neighborhoods). We grouped our selected neighborhoods into 5 groups and we selected the best 2 clusters with a probable opportunity. From these 2 clusters, we chose 2 neighborhoods and we concluded in the final neighborhood with the best likelihood to be productive for a greek restaurant.Our criteria for our decisions during all the analysis were to avoid competition as much as possible, to build the restaurant as closest as possible to central London and to built it near to other entertainment venues.Neighborhood with postcode E16 is the optimum proposal since there are only an icecream shop and a sandwich place from food insutry nearby. Additionally, it is really close to central London and nearby you will find: a theatre,a pub,an artgallery,a garden, a bookstore and a spa.
