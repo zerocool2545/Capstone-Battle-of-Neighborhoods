@@ -12,9 +12,9 @@ South East, South West, West, North, East Central, East, West Central, North Wes
 
 We are going to choose the area of our restaurant based on the smallest number of food/restaurant venues.
 
-After we choose the London Area, we are going to explore the neighborhoods in order to have a view of the venue categories and determine the group of neighborhoods we should build the restaurant.
+After we choose the London Area, we are going to explore the neighborhoods in order to have a view of the venue categories and determine the group or groups of neighborhoods we should build the restaurant.
 
-We are going to choose the neighborhood(of the chosen group) that is closest to Central London, in order to take advantage of easy access to a larger number of London citizens.
+We are going to choose the final neighborhood based on several criteria as described below.
 
 
 # Data-Section
@@ -37,14 +37,14 @@ For our next step and for the selected area, we took into consideration the top 
 
 # Results
 In order to decide which area of London is the best, we took into consideration the top 20 most common venues from Foursquare.We selected the area with the least percentage of restaurants and other types of food industry.The selected area was East London.
-For East London, we took into consideration the top 10 most common venues for each neighborhood and we grouped our neighborhoods into 5 clusters based on the venues nearby. We explored the derived clusters, we chose the 1st & 5th cluster and from these clusters we endedup in the final 2 neighborhoods which correspond to Postcodes of E16 & E5. Finally, we chose E16 neighborhood based on the distance from central London(our approach is that there is easier access for a larger number of London citizens). Overall, our criteria to our final selection were to avoid competition as much as possible, distance from London down-town(easy access of large numbers of citizens), existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner.
+For East London, we took into consideration the top 10 most common venues for each neighborhood and we grouped our neighborhoods into 5 clusters based on the venues nearby. We explored the derived clusters and chose the 1st & 5th cluster. From these clusters, we endedup in the 2 neighborhoods which correspond to Postcodes of E16 & E5. Finally, we chose E16 neighborhood based on criteria such as distance from central London(our approach is that there is easier access for a larger number of London citizens). Overall, our criteria to our final selection were to avoid competition as much as possible, distance from London down-town(easy access of large numbers of citizens), existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner.
 
 
 # Discussion
 As a first observation, we would say that there are a lot of pizza & italian restaurants almost everywhere in London. So, if you are a tourist and your appetite demands italian or pizza don't worry. My guess is that you won't even need google maps to find one.
 A second observation is that we faced a lot of problems in data cleansing due to the fact that there are special non geolocation postcodes that correspond to facilities like banks etc.So, in case you want to work with London's Postcodes in the future becareful in data cleansing.
 A third observation is that our final decision took into consideration several factors such as number of food restaurants nearby,distance from central London and if there are other venues nearby such as theatres etc. So, a part of our project is based on geospatial & pure business analysis and logic.
-Our criteria to our selection were to avoid competition as much as possible, distance from London down-town(easy access of large numbers of citizens), existance of other entertainment venues nearby(e.g. theatres) that macthup with a good lunch or dinner. Our final choice is the optimal due to the fact that there are only an icecream shop and a sandwich place from food insutry.Furthermore, it is close to central London as you will see in the maps and there are other venues that macthup with a good lunch or dinner.: a theatre,a pub,an artgallery,a garden, a bookstore and a spa.
+Our final choice is the optimal due to the fact that there are only an icecream shop and a sandwich place from food insutry.Furthermore, it is close to central London as you will see in the maps and there are other venues that macthup with a good lunch or dinner: a theatre,a pub,an artgallery,a garden, a bookstore and a spa.
 
 
 # Conclusion
