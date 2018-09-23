@@ -44,7 +44,7 @@ For East London, we took into consideration the top 10 most common venues for ea
 As a first observation, we would say that there are a lot of pizza & italian restaurants almost everywhere in London. So, if you are a tourist and your appetite demands italian or pizza don't worry. My guess is that you won't even need google maps to find one.
 A second observation is that we faced a lot of problems in data cleansing due to the fact that there are special non geolocation postcodes that correspond to facilities like banks etc.So, in case you want to work with London's Postcodes in the future becareful in data cleansing.
 A third observation is that our final decision took into consideration several factors such as number of food restaurants nearby,distance from central London and if there are other venues nearby such as theatres etc. So, a part of our project is based on analytics appliance in geospatial & pure business analysis and logic.
-Our final choice is the optimal due to the fact that there are only an icecream shop and a sandwich place from food insutry.Furthermore, it is close to central London as you will see in the maps and there are other venues that macthup with a good lunch or dinner a park,a pub,a coffee shop etc.
+Our final choice is the optimal due to the fact that there are only two food venues nearby.Furthermore, it is close to central London as you will see in the maps and there are other venues that macthup with a good lunch or dinner such as a park,a pub,a coffee shop etc.
 
 
 # Conclusion
