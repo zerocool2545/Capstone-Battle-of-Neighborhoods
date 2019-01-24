@@ -49,3 +49,6 @@ Our final choice is the optimal due to the fact that there are only two food ven
 
 # Conclusion
 We considered several factors and we managed to extract the optimal result from a chaotic original view of London. At the beginning, we had 178 Postcodes which corresponded to London neighborhoods. Using analytics and business logic, we narrowed our search at East London (20 neighborhoods). We grouped our selected neighborhoods into 5 groups and we selected the best cluster with a probable opportunity. We chose the final neighborhood with the best likelihood to be productive for a greek restaurant.Our criteria for our decisions during all the analysis were to avoid competition as much as possible, to build the restaurant as closest as possible to central London and to built it near to other entertainment venues.Neighborhood with postcode E1W is the optimum proposal since there are only an Italian and an Indian restaurant from food insutry nearby. Additionally, it is really close to central London and nearby you will find a park,a pub,a coffee shop etc. 
+
+Link
+https://rawgit.com/zerocool2545/Capstone-Battle-of-Neighborhoods/master/London%20%282%29.html?fbclid=IwAR1vELtWz_uRIbvKHHd4PSA0QkJRSOYMo4WGoCL44Frzg5wPdC36IYoFU8c
